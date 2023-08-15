@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Philani F. Msomi Personal Portfolio Website</title>
+    <link rel="stylesheet" href="my_css.css">
+    <script src="https://kit.fontawesome.com/a3d516d52f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav> 
+            <img src="photos/logoR001.png" class="logo" >
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a>
+                <li><a href="#about">About</a>
+                <li><a href="#services">Services</a>  
+                <li><a href="#portfolio">Portfolio</a>
+                <li><a href="#contact">Contact</a>
+                <i class="fas fa-times" onclick="closemenu()"></i>            
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav> 
+          <div class="header-text">
+             <p>Software Engineer</p>
+             <h1> Welcome! This is <span>Philani Msomi</span><br>from South Africa</h1>
+
+          </div>
+ 
+
+        </div>
+
+
+    </div>
+    <!-- --------------------------ABOUT-------------------------------------------------------------------------------------- -->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photos/PSE001.jpg">
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I hold a Bachelor in Econometrics from the University of Pretoria, with economics,
+                         statistics, and mathematics as core subjects. In my first year, I was in the top 15 %, 
+                         and I received an invite to join the Golden Key International Society. I completed matric 
+                         at Siphesihle high school with 4 distinctions, which include mathematics, physical science,
+                          accounting, and biology. In general, I am very methodological person, I enjoy mathematics and 
+                          interpretation of numbers.
+                        Having successfully completed my Bachelor’s degree in Econometrics at University of Pretoria,
+                         I am passionate about harnessing the power of data to derive actionable insights and drive informed 
+                         decision-making. During my six-year tenure at Allan Gray as a Consultant and Data Administrator.
+                        
+                        
+                    </p>
+                    <div class=" tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')"> Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')"> Education</p>
+                        <p class="tab-links"  onclick="opentab('hobbies')"> Hobbies</p>
+
+                    </div>
+                    <div class ="tab-contents active-tab" id="skills">
+                        <ul>
+                           
+                            <li> <span> Software Engineer</span><br>Building Software/Web application</li> 
+                            <li> <span> Web Development</span><br>Building Websites</li>
+                            <li> <span> Machine Learning</span><br>Building Machine Learning Web applications</li>
+                        </ul>
+                    </div>
+                    <div class ="tab-contents" id="experience">
+                        <ul>
+                           
+                            <li> <span> 2021 - present</span><br>Self Employed/Freelancer</li> 
+                            <li> <span> 2013 - 2020</span><br>Consultant and Data Administrator at Allan Gray</li>
+                            <li> <span> 2011 - 2012</span><br>Internship at Brandhouse Bevereleges</li>
+                            <li> <span> 2009 - 2010</span><br>Chairperson at Tuksdorp residence at University of Pretoria</li>
+                            <li> <span> 2008 - 2009</span><br>Tutor and Mentor at University of Pretoria</li>
+                        </ul>
+                    </div>
+                    <div class ="tab-contents" id="education">
+                        <ul>
+                           
+                            <li> <span> 2022 - present</span><br>Software Engineering at ALX Africa</li> 
+                            <li> <span> 2023 </span><br>Google Cloud Get Certified Program</li>
+                            <li> <span> 2007 - 2012</span><br> Bachelor's in Econometrics at University of Pretoria</li>
+                            <li> <span> 2003 - 2006</span><br>Bachelor of Science in Chemical Engineering at University of Cape Town (incomplete)</li>
+                            <li> <span> 2003</span><br>Matric/Grage 12 at Siphesihle high School</li>
+                        </ul>
+                    </div>
+                    <div class ="tab-contents" id="hobbies">
+                        <ul>
+                           
+                            <li> <span> Gym</span><br>I enjoy working out and I also work as a personal trainer</li> 
+                            <li> <span> Sports</span><br>I enjoy watching Football, Tech news, and Global news</li>
+                            <li> <span> Reading</span><br>I read tech news and books</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- ------------------------SERVICES---------------------------------------------------------------------------------------------------- -->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Website Development</h2>
+                    <p> I build, design and main websites for individuals,
+                         organisations, schools and businesses.</p>
+                    <a href="https://github.com/philacoding">Learn more</a>     
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2> Machine Learning Web appliction</h2>
+                    <p> Data is the new gold, here I build data science/machine
+                         learning web applications for individuals and organisations</p>
+                    <a href="https://github.com/philacoding">Learn more</a>     
+                </div>
+                <div>
+                    <i class="fa-solid fa-child-reaching"></i>
+                    <h2> Teaching and Tutoring</h2>
+                    <p> I teach and tutor mathematics, statistics, coding, and TEFL</p>
+                    <a href="https://github.com/philacoding">Learn more</a>     
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+    <!---------------------PORTFOLIO-------------------------------------------------------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src ="photos/work001.png">
+                    <div class="layer">
+                        <h3> Social Media App</h3>
+                        <p>This app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://github.com/philacoding"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src ="photos/work002.png">
+                    <div class="layer">
+                        <h3> Music App</h3>
+                        <p>This app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://github.com/philacoding"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src ="photos/work003.png">
+                    <div class="layer">
+                        <h3> Online Shopping App</h3>
+                        <p>This app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://github.com/philacoding"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/philacoding" class="btn">See more </a>
+        </div>
+     </div>
+<!-- ---------------------------CONTACT------------------------------------------------------------------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>philani.ph.msomi@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+27(0)79 158 5322</p>
+                <div class="social-icons">
+                    <a href="https://github.com/philacoding"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/philani.p.msomi"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/PhilaniMsomi20"><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div> 
+                <a href="Documents/PhilaCoding2023_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; PhilaCoding Made with <i class="fas fa-heart"></i> by Philani Msomi. </p>
+
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <!------------------------------Script for smaller screen------------------->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+<!------------------------Script for Google Sheet form------------------------------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzr_kvkK1UK1VC5ROwHDrNImU99w7fIVh7KAZmykYKMT9AOmdX0gN6T_v0WBuBc3uv7DQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully, Philani Msomi will get back you ASAP"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
