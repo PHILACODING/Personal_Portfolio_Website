@@ -3,304 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mr Philani F. Msomi Personal Portfolio Website</title>
+    <title>Philani Msomi | Software & Data Engineering</title>
 
-    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    
-
+    <!-- CSS & FontAwesome -->
     <link rel="stylesheet" href="my_css.css">
     <script src="https://kit.fontawesome.com/a3d516d52f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="header">
+
+    <!-- HEADER / HERO -->
+    <header id="header">
         <div class="container">
-         <nav>
-            <img src="photos/Logo Maker 2023_08_16_12_17_42_edited22222222222222.jpg" class="logo" alt="Philani Msomi logo">
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>            
-            </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
-          </nav> 
-          <div class="header-text">
-             <p>Software Developer</p>
-             <h1> Welcome! This is <span>Philani Msomi</span><br>from South Africa</h1>
-
-          </div>
- 
-
-        </div>
-
-
-    </div>
-    <!-- --------------------------ABOUT-------------------------------------------------------------------------------------- -->
-    
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="photos/PSE001.jpg" alt="Philani Msomi">
-                </div>
-                <div class="about-col-2"> 
-                    <h1 class="sub-title">About Me</h1>
-                    <p>
-                        I am a Software Developer with a background in Econometrics and professional
-                        experience across data, client servicing, and technical problem-solving.
-                        I hold a Bachelor's degree in Econometrics from the University of Pretoria, where
-                        I developed a strong foundation in mathematics, statistics, economics, and
-                        quantitative analysis.
-
-                        My current focus is on building software and data-driven applications using
-                        technologies such as Python, SQL, JavaScript, and modern data and cloud
-                        technologies. I enjoy solving problems, working with data, and developing
-                        practical solutions that turn ideas into useful applications.
-
-                        During my time at Allan Gray as a Consultant and Data Administrator, I gained
-                        valuable experience in client servicing, communication, data administration,
-                        business processes, and professional problem-solving. Working directly with
-                        clients taught me the importance of understanding people's needs, communicating
-                        effectively, and delivering reliable solutions.
-
-                        I also work as a phone technician, where I troubleshoot and repair mobile
-                        devices. This has strengthened my practical technical skills, attention to
-                        detail, and ability to diagnose and solve technical problems.
-                    </p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li>
-                                <span>Software Development</span><br>
-                                Building software applications and practical solutions
-                            </li>
-                            <li>
-                                <span>Web Development</span><br>
-                                Building responsive websites and web applications
-                            </li>
-                            <li>
-                                <span>Data Engineering</span><br>
-                                Building data pipelines and working with data using Python and SQL
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li>
-                                <span>2021 - Present</span><br>
-                                Software Developer &amp; Technical Freelancer
-                            </li>
-                            <li>
-                                <span>2021 - Present</span><br>
-                                Phone Technician
-                            </li>
-                            <li>
-                                <span>2013 - 2020</span><br>
-                                Consultant &amp; Data Administrator — Allan Gray
-                            </li>
-                            <li>
-                                <span>2011 - 2012</span><br>
-                                Intern — Brandhouse Beverages
-                            </li>
-                            <li>
-                                <span>2008 - 2010</span><br>
-                                Tutor, Mentor &amp; Student Leadership — University of Pretoria
-                            </li>
-                        </ul>
-                    </div>
-                    <div class ="tab-contents" id="education">
-                        <ul>
-                           
-                            <li> <span> 2022 - present</span><br>Software Engineering at ALX Africa</li> 
-                            <li> <span> 2023 </span><br>Google Cloud Get Certified Program</li>
-                            <li> <span> 2007 - 2012</span><br> Bachelor's in Econometrics at University of Pretoria</li>
-                            <li> <span> 2003 - 2006</span><br>Bachelor of Science in Chemical Engineering at University of Cape Town (incomplete)</li>
-                            <li> <span> 2003</span><br>Matric/Grage 12 at Siphesihle high School</li>
-                        </ul>
-                    </div>
-                    <div class ="tab-contents" id="hobbies">
-                        <ul>
-                           
-                            <li> <span> Gym</span><br>I enjoy working out and I also work as a personal trainer</li> 
-                            <li> <span> Sports</span><br>I enjoy watching Football, Tech news, and Global news</li>
-                            <li> <span> Reading</span><br>I read tech news and books</li>
-                        </ul>
-                    </div>
-                </div>
-
-                
-
+            <nav>
+                <img src="photos/Logo Maker 2023_08_16_12_17_42_edited22222222222222.jpg" class="logo" alt="Philani Msomi Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><i class="fas fa-times" onclick="closemenu()" aria-label="Close menu"></i></li>            
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" aria-label="Open menu"></i>
+            </nav> 
+            <div class="header-text">
+                <p>Software &amp; Data Engineering</p>
+                <h1>Hi, I'm <span>Philani Msomi</span><br>from South Africa</h1>
             </div>
-
         </div>
+    </header>
 
-    </div>
-    <!-- ------------------------SERVICES---------------------------------------------------------------------------------------------------- -->
-    
-    <div id="services">
-        <div class="container">
-            <h1 class="sub-title"> My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2> Website Development</h2>
-                    <p> I build, design and main websites for individuals,
-                         organisations, schools and businesses.</p>
-                    <a href="https://github.com/philacoding">Learn more</a>     
-                </div>
-                <div>
-                    <i class="fa-solid fa-code-compare"></i>
-                    <h2> Machine Learning Web appliction</h2>
-                    <p> Data is the new gold, here I build data science/machine
-                         learning web applications for individuals and organisations</p>
-                    <a href="https://github.com/philacoding">Learn more</a>     
-                </div>
-                <div>
-                    <i class="fa-solid fa-child-reaching"></i>
-                    <h2> Teaching and Tutoring</h2>
-                    <p> I teach and tutor mathematics, statistics, coding, and TEFL</p>
-                    <a href="https://github.com/philacoding">Learn more</a>     
-                </div>
-            </div>
-
-        </div>
-        
-
-    </div>
-    <!---------------------PORTFOLIO-------------------------------------------------------------------------------------------------->
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src ="photos/work001.png" alt="Social Media App project">
-                    <div class="layer">
-                        <h3> Social Media App</h3>
-                        <p>This app connects you to the talented people around the world.
-                            Download it from play store.
-                        </p>
-                        <a href="https://github.com/philacoding"><i class="fas fa-external-link-alt"></i></a>
-
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="photos/PSE001.jpg" alt="Philani Msomi Profile Picture">
                     </div>
-                </div>
-                <div class="work">
-                    <img src ="photos/work002.png" alt="Music App project">
-                    <div class="layer">
-                        <h3> Music App</h3>
-                        <p>This app connects you to the talented people around the world.
-                            Download it from play store.
+                    <div class="about-col-2"> 
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Analytically driven Software &amp; Data Engineer with a BCom in Econometrics and 7+ years of professional experience in financial operations. Skilled in Python, SQL, JavaScript, and relational databases (PostgreSQL/MySQL), with practical experience building REST APIs, robust ETL data pipelines, and responsive web applications.
                         </p>
-                        <a href="https://github.com/philacoding"><i class="fas fa-external-link-alt"></i></a>
+                        
+                        <div class="tab-titles">
+                            <button class="tab-links active-link" onclick="opentab('skills')">Skills</button>
+                            <button class="tab-links" onclick="opentab('experience')">Experience</button>
+                            <button class="tab-links" onclick="opentab('education')">Education</button>
+                        </div>
 
-                    </div>
-                </div>
-                <div class="work">
-                    <img src ="photos/work003.png" alt="Online Shopping App project">
-                    <div class="layer">
-                        <h3> Online Shopping App</h3>
-                        <p>This app connects you to the talented people around the world.
-                            Download it from play store.
-                        </p>
-                        <a href="https://github.com/philacoding"><i class="fas fa-external-link-alt"></i></a>
+                        <!-- TAB: SKILLS -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Languages &amp; Web</span><br>
+                                    Python, JavaScript, SQL, HTML5, CSS3, REST APIs
+                                </li>
+                                <li>
+                                    <span>Data Engineering &amp; Analytics</span><br>
+                                    PostgreSQL, MySQL, ETL Pipelines, Pandas, NumPy, Power BI
+                                </li>
+                                <li>
+                                    <span>Software &amp; Tools</span><br>
+                                    Git/GitHub, Docker, Linux, VS Code, Jupyter, Azure (Foundational)
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- TAB: EXPERIENCE -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2021 – Present</span><br>
+                                    Freelance Software Developer &amp; Technical Consultant — Philacoding
+                                </li>
+                                <li>
+                                    <span>2013 – 2019</span><br>
+                                    Operations Consultant &amp; Work Coordinator — Allan Gray
+                                </li>
+                                <li>
+                                    <span>2011 – 2012</span><br>
+                                    Intern — Brandhouse Beverages
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- TAB: EDUCATION -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2007 – 2012</span><br>
+                                    BCom Econometrics — University of Pretoria
+                                </li>
+                                <li>
+                                    <span>2022 – 2023</span><br>
+                                    Software Engineering Specialization — ALX Africa
+                                </li>
+                                <li>
+                                    <span>2003</span><br>
+                                    Matric (Math (HG:) 93%, Science (HG): 81%) — Siphesihle High School
+                                </li>
+                            </ul>
+                        </div>
 
                     </div>
                 </div>
             </div>
-            <a href="https://github.com/philacoding" class="btn">See more </a>
-        </div>
-     </div>
-<!-- ---------------------------CONTACT------------------------------------------------------------------------------------ -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i>philani.ph.msomi@gmail.com</p>
-                <p><i class="fas fa-phone-square-alt"></i>+27(0)79 158 5322</p>
-                <div class="social-icons">
-                    <a href="https://github.com/philacoding"><i class="fab fa-github"></i></a>
-                    <a href="https://www.facebook.com/philani.p.msomi"><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com/PhilaniMsomi20"><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Software &amp; Web Development</h2>
+                        <p>Designing, building, and deploying clean, responsive front-end applications and reliable back-end scripts.</p>
+                        <a href="https://github.com/philacoding" target="_blank" rel="noopener noreferrer">Learn more</a>     
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Data Engineering &amp; ETL</h2>
+                        <p>Building automated data ingestion pipelines, managing relational databases, and transforming raw API data into structured insights.</p>
+                        <a href="https://github.com/philacoding" target="_blank" rel="noopener noreferrer">Learn more</a>     
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h2>Quantitative &amp; Analytics Solutions</h2>
+                        <p>Leveraging statistical modeling, SQL analytics, and data visualization tools to solve complex operational problems.</p>
+                        <a href="https://github.com/philacoding" target="_blank" rel="noopener noreferrer">Learn more</a>     
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="photos/work001.png" alt="Pokémon Data Engineering Pipeline Project">
+                        <div class="layer">
+                            <h3>Pokémon ETL Pipeline</h3>
+                            <p>An end-to-end Python data pipeline extracting 1,300+ JSON records from a REST API into a normalized PostgreSQL database.</p>
+                            <a href="https://github.com/PHILACODING/pokemon-data-engineering" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/work002.png" alt="Personal Developer Portfolio Website">
+                        <div class="layer">
+                            <h3>Personal Portfolio Web App</h3>
+                            <p>A responsive developer portfolio built with semantic HTML5, custom CSS styling, and dynamic JavaScript user interactions.</p>
+                            <a href="https://github.com/PHILACODING/Personal_Portfolio_Website" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/work003.png" alt="JavaScript Calculator Application">
+                        <div class="layer">
+                            <h3>JavaScript Calculator App</h3>
+                            <p>A functional, web-based calculator supporting core arithmetic operations, error handling, and responsive design.</p>
+                            <a href="https://github.com/PHILACODING/javascript-calculator" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/philacoding" class="btn" target="_blank" rel="noopener noreferrer">See More on GitHub</a>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> philani.ph.msomi@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i> +27 (0)79 158 5322</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/philacoding" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/philani-msomi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/PhilaniMsomi20" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/philani.p.msomi" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <a href="./FP_Msomi_CV_.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
                 </div> 
-                <a href="Documents/PhilaCoding2023_CV.pdf" download class="btn btn2">Download CV</a>
             </div>
-            <div class="contact-right">
-                <form name='submit-to-google-sheet'>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+        </section>
+    </main>
 
-        </div> 
-    </div>
-    <div class="copyright">
-        <p>Copyright &copy; PhilaCoding Made with <i class="fas fa-heart"></i> by Philani Msomi. </p>
+    <!-- FOOTER -->
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy; Philani Msomi. Built with <i class="fas fa-heart"></i> and Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
 
-    </div>
-</div>
-    <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-
-        }
-    </script>
-    <!------------------------------Script for smaller screen------------------->
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-        
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-        function closemenu(){
-            sidemenu.style.right = "-200px"
-        }
-
-    </script>
-<!------------------------Script for Google Sheet form------------------------------->
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzr_kvkK1UK1VC5ROwHDrNImU99w7fIVh7KAZmykYKMT9AOmdX0gN6T_v0WBuBc3uv7DQ/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully, Philani Msomi will get back you ASAP"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+    <!-- External JavaScript File -->
+    <script src="my_js.js"></script>
 </body>
 </html>
