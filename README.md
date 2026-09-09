@@ -1,6 +1,6 @@
-# Personal Portfolio Website
+# Philacoding Developer Platform
 
-My personal portfolio website, built with **HTML5, CSS3, and JavaScript**.
+My developer platform, built with **HTML5, CSS3, and JavaScript**.
 
 The website showcases my background, technical skills, software development work, data-related interests, projects, education, experience, services, and contact information.
 
@@ -11,10 +11,10 @@ The project is part of my ongoing journey to develop practical skills in **softw
 ## 🌐 Live Website
 
 **Portfolio Website:**
-https://philacoding.github.io/Personal_Portfolio_Website/
+https://philacoding.github.io/Philacoding-Developer-Platiform/
 
 **GitHub Repository:**
-https://github.com/PHILACODING/Personal_Portfolio_Website
+https://github.com/PHILACODING/Philacoding-Developer-Platiform
 
 ---
 
@@ -255,13 +255,13 @@ A successful submission should:
 Clone the repository:
 
 ```bash
-git clone https://github.com/PHILACODING/Personal_Portfolio_Website.git
+git clone https://github.com/PHILACODING/Philacoding-Developer-Platiform.git
 ```
 
 Move into the project directory:
 
 ```bash
-cd Personal_Portfolio_Website
+cd Philacoding-Developer-Platiform
 ```
 
 Start a local development server:
@@ -309,7 +309,7 @@ Live Portfolio Website
 
 The live website is available at:
 
-https://philacoding.github.io/Personal_Portfolio_Website/
+https://philacoding.github.io/Philacoding-Developer-Platiform/
 
 ---
 
@@ -423,7 +423,7 @@ South Africa
 https://github.com/PHILACODING
 
 **Portfolio:**
-https://philacoding.github.io/Personal_Portfolio_Website/
+https://philacoding.github.io/Philacoding-Developer-Platiform/
 
 ---
 
